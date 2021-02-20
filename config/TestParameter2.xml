@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG">
+     <test name="Test Parameter 2">
+     <parameter name="s1" value="sad"/>
+     <parameter name="s2" value="year"/>
+         <classes>
+              <class name="TestNG.TestParameter2"/>
+              
+              
+         </classes>
+     </test>
+</suite>

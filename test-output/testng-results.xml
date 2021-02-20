@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="9" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG" duration-ms="245" started-at="2020-12-01T17:47:31Z" finished-at="2020-12-01T17:47:31Z">
+    <groups>
+      <group name="A">
+        <method signature="TestGrouping.f1()[pri:0, instance:TestNG.TestGrouping@55f3ddb1]" name="f1" class="TestNG.TestGrouping"/>
+        <method signature="TestGrouping.f3()[pri:0, instance:TestNG.TestGrouping@55f3ddb1]" name="f3" class="TestNG.TestGrouping"/>
+        <method signature="TestGroupingNew.g2()[pri:0, instance:TestNG.TestGroupingNew@cb5822]" name="g2" class="TestNG.TestGroupingNew"/>
+      </group> <!-- A -->
+      <group name="C">
+        <method signature="TestGrouping.f4()[pri:0, instance:TestNG.TestGrouping@55f3ddb1]" name="f4" class="TestNG.TestGrouping"/>
+        <method signature="TestGrouping.f5()[pri:0, instance:TestNG.TestGrouping@55f3ddb1]" name="f5" class="TestNG.TestGrouping"/>
+        <method signature="TestGroupingNew.g3()[pri:0, instance:TestNG.TestGroupingNew@cb5822]" name="g3" class="TestNG.TestGroupingNew"/>
+      </group> <!-- C -->
+    </groups>
+    <test name="Test Grouping" duration-ms="245" started-at="2020-12-01T17:47:31Z" finished-at="2020-12-01T17:47:31Z">
+      <class name="TestNG.TestGroupingNew">
+        <test-method status="PASS" signature="g2()[pri:0, instance:TestNG.TestGroupingNew@cb5822]" name="g2" duration-ms="2" started-at="2020-12-01T17:47:31Z" finished-at="2020-12-01T17:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- g2 -->
+        <test-method status="PASS" signature="g3()[pri:0, instance:TestNG.TestGroupingNew@cb5822]" name="g3" duration-ms="2" started-at="2020-12-01T17:47:31Z" finished-at="2020-12-01T17:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- g3 -->
+      </class> <!-- TestNG.TestGroupingNew -->
+      <class name="TestNG.TestGrouping">
+        <test-method status="PASS" signature="f1()[pri:0, instance:TestNG.TestGrouping@55f3ddb1]" name="f1" duration-ms="25" started-at="2020-12-01T17:47:31Z" finished-at="2020-12-01T17:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="f3()[pri:0, instance:TestNG.TestGrouping@55f3ddb1]" name="f3" duration-ms="3" started-at="2020-12-01T17:47:31Z" finished-at="2020-12-01T17:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f3 -->
+        <test-method status="PASS" signature="f4()[pri:0, instance:TestNG.TestGrouping@55f3ddb1]" name="f4" duration-ms="30" started-at="2020-12-01T17:47:31Z" finished-at="2020-12-01T17:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f4 -->
+        <test-method status="PASS" signature="f5()[pri:0, instance:TestNG.TestGrouping@55f3ddb1]" name="f5" duration-ms="2" started-at="2020-12-01T17:47:31Z" finished-at="2020-12-01T17:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f5 -->
+      </class> <!-- TestNG.TestGrouping -->
+    </test> <!-- Test Grouping -->
+  </suite> <!-- TestNG -->
+</testng-results>

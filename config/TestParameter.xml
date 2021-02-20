@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG">
+     <test name="Test Parameter">
+     <parameter name="city" value="Delhi"/>
+         <classes>
+              <class name="TestNG.TestParameter"/>
+              
+              
+         </classes>
+     </test>
+</suite>

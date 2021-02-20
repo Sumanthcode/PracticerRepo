@@ -1,0 +1,7 @@
+[0510/212700.712:ERROR:file_io_win.cc(179)] CreateFile C:\Users\hp\AppData\Local\Temp\scoped_dir7388_29275\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0510/213342.119:ERROR:file_io_win.cc(179)] CreateFile C:\Users\hp\AppData\Local\Temp\scoped_dir6532_7538\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0511/162128.910:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0511/162129.801:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::PEB<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0511/162129.973:ERROR:process_info.cc(551)] ReadProcessData failed
+[0511/190622.666:ERROR:file_io_win.cc(179)] CreateFile C:\Users\hp\AppData\Local\Temp\scoped_dir11848_20334\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0517/141333.806:ERROR:file_io_win.cc(179)] CreateFile C:\Users\hp\AppData\Local\Temp\scoped_dir11200_26768\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
